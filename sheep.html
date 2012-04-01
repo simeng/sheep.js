@@ -1,0 +1,24 @@
+<!doctype html>
+<head>
+	<style>
+		.platform {
+			border-top: 1px solid red;
+			height: 50px;
+			width: 250px;
+			background: #eee;
+		}
+	</style>
+</head>
+<body>
+	<h1>Sheep.exe.js</h1>
+	<p>A reimplementation of the old Esheep aka sheep.exe in javascript</p>
+	<p>Originally made as an april fools gimmick for <a href="http://hw.no/">hw.no</a> by <a href="http://www.twitter.com/tekdev">@tekdev</a>.</p>
+	<div class="platform" style="top: 200px; left: 150px; position: absolute"></div>
+	<div class="platform" style="top: 400px; left: 200px; position: absolute"></div>
+	<div class="platform" style="top: 630px; left: 100px; position: absolute"></div>
+	<div class="platform" style="top: 500px; left: 300px; position: absolute"></div>
+	<script type="application/javascript" src="sheep.js"> </script>
+	<script type="application/javascript">
+		sheep(".platform");
+	</script>
+</body>
