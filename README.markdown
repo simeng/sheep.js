@@ -2,6 +2,10 @@ Sheep.js
 ========
 A reimplementation of sheep.exe in Javascript
 
+Demo
+----
+[sheep.html](http://simeng.github.com/sheep.js/sheep.html)
+
 Credits
 -------
 * Sheep.js is based on the original Sheep.exe for Windows (16bit) by Tatsutoshi Nomura.
